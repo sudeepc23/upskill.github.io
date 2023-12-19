@@ -1,0 +1,7 @@
+div{
+    height: 500px;
+    border:3px solid blanchedalmond;
+    background: linear-gradient(rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)),
+     url(zomato\ background1.jpg);
+}

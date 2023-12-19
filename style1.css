@@ -1,0 +1,61 @@
+.group{
+    height: 500px;
+    border:3px solid blanchedalmond;
+    background: linear-gradient(rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)),
+     url(zomato\ background1.jpg);
+
+     #header{
+        margin-bottom:100px;
+     }
+}
+
+
+.column{
+    float: left;
+    width:31.33%;
+    padding: 10px;
+}
+
+.row::after{
+    content: "";
+    clear:both;
+    display:table;
+}
+
+img{
+    width: 100px;
+    height: 150px;
+    object-fit: contain;
+    
+}
+
+img:hover{
+    transform:scale(1.04);
+}
+
+h4{
+    padding: 5px;
+    text-align: center;
+}
+
+button{
+    padding: 5px 30px;
+    border: none;
+    outline: none;
+    background-color: green;
+    color: white;
+    cursor:pointer;
+    border-radius: 4px;
+    font-size: 20px;
+    display:block;
+    margin: 0 auto;
+    transition: 0.2s all;
+
+}
+
+button:hover{
+    transform:scale(1.04);
+}
+
+
